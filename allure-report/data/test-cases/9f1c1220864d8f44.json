@@ -1,0 +1,110 @@
+{
+  "uid" : "9f1c1220864d8f44",
+  "name" : "test_delete_dep",
+  "fullName" : "testcase.address_book.test_depatment_manage.TestDeparmentMange#test_delete_dep",
+  "historyId" : "d9cbee1c1955ad6f29d8413a17545eba",
+  "time" : {
+    "start" : 1622095944062,
+    "stop" : 1622095944277,
+    "duration" : 215
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 60123 == 0",
+  "statusTrace" : "self = <test_depatment_manage.TestDeparmentMange object at 0x107cb27f0>\n\n    def test_delete_dep(self):\n        r = self.depmange.delete_dep(id=3)\n        print(r.json())\n>       assert r.json()['errcode'] == 0\nE       assert 60123 == 0\n\ntestcase/address_book/test_depatment_manage.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDeparmentMange",
+    "time" : {
+      "start" : 1622095943021,
+      "stop" : 1622095943308,
+      "duration" : 287
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 60123 == 0",
+    "statusTrace" : "self = <test_depatment_manage.TestDeparmentMange object at 0x107cb27f0>\n\n    def test_delete_dep(self):\n        r = self.depmange.delete_dep(id=3)\n        print(r.json())\n>       assert r.json()['errcode'] == 0\nE       assert 60123 == 0\n\ntestcase/address_book/test_depatment_manage.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2f39d4cd3a36e3fb",
+      "name" : "stdout",
+      "source" : "2f39d4cd3a36e3fb.txt",
+      "type" : "text/plain",
+      "size" : 198
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDeparmentMange::0",
+    "time" : {
+      "start" : 1622095944281,
+      "stop" : 1622095944281,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase.address_book"
+  }, {
+    "name" : "suite",
+    "value" : "test_depatment_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDeparmentMange"
+  }, {
+    "name" : "host",
+    "value" : "unknown38f9d3ae3bb2.ctc"
+  }, {
+    "name" : "thread",
+    "value" : "2883-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.address_book.test_depatment_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9f1c1220864d8f44.json",
+  "parameterValues" : [ ]
+}

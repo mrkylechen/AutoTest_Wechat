@@ -1,0 +1,1 @@
+{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': '产品中心', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '测试组', 'parentid': 1, 'order': 100000000}, {'id': 4, 'name': '产品组', 'parentid': 1, 'order': 99998000}, {'id': 5, 'name': '开发组', 'parentid': 1, 'order': 99997000}]}
